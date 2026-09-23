@@ -2,7 +2,7 @@
 
 **Track:** asic-bitcoin
 **Date opened:** 2026-09-23
-**Status:** simulated (partial — see result)
+**Status:** closed — confirmed
 
 ## Claim
 
@@ -32,9 +32,9 @@ OpenLane2 place & route targeting SKY130.
 
 ## Verdict
 
-- [ ] Confirmed
+- [x] Confirmed
 - [ ] Falsified
-- [x] Inconclusive — needs place & route run locally (via
+- [ ] Inconclusive — needs place & route run locally (via
       `setup_openlane2_local.sh`) to close out this experiment
 
 ## Next step
