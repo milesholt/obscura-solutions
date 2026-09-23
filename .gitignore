@@ -1,0 +1,6 @@
+/openlane2/
+**/runs/
+*.gds
+*.def
+*.lef
+.nix-profile/
