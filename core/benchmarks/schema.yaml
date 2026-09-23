@@ -1,0 +1,24 @@
+# Obscura Solutions — shared benchmark record schema
+# One YAML file per benchmark run, stored alongside the experiment it belongs
+# to (e.g. tracks/<track>/experiments/003-benchmarks/run-2026-09-23.yaml).
+# Keeping this schema consistent across tracks is what makes results
+# comparable over time and across very different kinds of projects.
+
+experiment_id: ""        # e.g. "asic-bitcoin-003"
+track: ""                # asic-bitcoin / energy-harvesting / ai-accelerator
+date: ""                 # YYYY-MM-DD
+description: ""          # one line: what was measured and why
+
+conditions:
+  # free-form key/value pairs describing the test setup
+  # e.g. temperature_c: 25, supply_voltage: 1.8, clock_mhz: 50
+
+metrics:
+  # one entry per measured quantity — add as many as the track needs
+  - name: ""              # e.g. "hash_rate", "energy_harvested", "tops_per_watt"
+    value: null
+    unit: ""
+    baseline: null         # prior best result for this metric, if any
+    prediction: null        # what the experiment log predicted, if applicable
+
+notes: ""                 # anomalies, caveats, measurement uncertainty
